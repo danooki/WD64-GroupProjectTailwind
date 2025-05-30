@@ -11,21 +11,21 @@
     <!-- CONNI LEAVES A LONG COMMENT TO SEE HER SECTIONSS-->
     <header>
       <div
-        class="bg-[url(./imagesConni/bikeheader.jpg)] bg-cover bg-center h-[700px]"
+        class="bg-[url(./imagesConni/bikeheader.jpg)] bg-cover bg-center h-[600px] md:h-[700px]"
       >
         <nav
-          class="hidden md:flex flex-row justify-between bg-[#0d0a13]/100 h-[70px] text-[#ce8432] font-bold items-center pr-15 pl-5 sticky top-0 drop-shadow-xl/60"
+          class="flex-row justify-between bg-[#0d0a13]/100 text-[#ce8432] z-10 items-center pr-4 h-10 w-full fixed top-0 drop-shadow-xl/60 flex sm:font-bold md:h-[70px] md:pr-15 md:pl-5"
         >
           <div
             class="flex text-[#ce8432] flex-row items-center justify-between"
           >
             <img
               src="./imagesConni/mountainbike_logo_transparent.png"
-              class="pt-3"
-              height="100px"
-              width="100px"
+              class="w-[50px] h-[50px] mt-2 sm:mt-3 md:h-[100px] md:w-[100px]"
             />
-            <p class="text-[#ce8432] font-smibold">Mountainbike-Store</p>
+            <p class="hidden md:inline text-[#ce8432] md:font-bold">
+              Mountainbike-Store
+            </p>
           </div>
           <ul class="flex flex-row justify-between gap-8">
             <li>Home</li>
@@ -35,19 +35,29 @@
           </ul>
         </nav>
 
-        <section id="Banner" class="flex flex-row justify-between">
-          <div class="ml-[6rem] mt-[8rem] text-[#0d0a13]">
-            <h1 class="text-9xl font-bold">
+        <!-- CONNI HEAD H1-->
+
+        <section id="Banner" class="flex flex-col justify-between lg:flex-row">
+          <!--H1-->
+          <div
+            class="text-[#0d0a13] ml-4 mt-[4rem] md:ml-[2rem] md:mt-[6rem] lg:ml-[3rem] xl:mt-[8rem] xl:ml-[6rem]"
+          >
+            <h1 class="text-7xl font-bold md:text-9xl">
               AMAZING
-              <span class="text-7xl font-semibold block mb-11">
-                PLACEHOLDER BIKES</span
+              <span
+                class="text-4xl font-bold block sm:text-6xl md:font-semibold"
+              >
+                <span class="block sm:inline">PLACEHOLDER</span>
+                BIKES</span
               >
             </h1>
           </div>
+
+          <!-- CONNI HEAD P-BOX-->
           <div
-            class="bg-[#0d0a13] w-fit h-fit mt-[23rem] mr-[4rem] rounded-xl p-6 items-center text-center"
+            class="bg-[#0d0a13] w-fit h-fit mt-[7rem] mx-[2rem] rounded-xl p-6 items-center text-center sm:mt-[8rem] sm:ml-[10rem] md:mt-[8rem] md:ml-[26rem] lg:ml-1 lg:mt-[25rem] lg:mr-[4rem] xl:mt-[27rem] xl:mr-[5rem]"
           >
-            <p class="text-[#ce8432] font-bold">
+            <p class="text-[#ce8432] text-base md:font-bold">
               I'm a short little paragraph<span class="block">
                 because everyone has a SLOGAN. And I'm a BIKE-SLOGAN!</span
               ><span class="block">
@@ -59,10 +69,8 @@
         </section>
       </div>
     </header>
-    <!-- CONNI LEAVES A LONG COMMENT TO SEE HER SECTIONSS-->
+    <!-- CONNI LEAVES A LONG COMMENT TO SEE HER SECTIONSS--><!-- CONNI OVER-->
     <main>
-      <!-- CONNI OVER-->
-
       <section class="py-16 bg-blue-50">
         <!-- PRODUCTS-->
         <!-- LEO -->
@@ -143,8 +151,7 @@
         <!-- LEO -->
       </section>
 
-      <section>
-        <!-- DANIEL -->
+      <!-- DANIEL -->
       <!-- MARTHA -->
 
       <section class="bg-white py-20 text-[#0E0A14] ml-5 mr-5">
@@ -204,7 +211,6 @@
         <!-- DANIEL -->
       </section>
     </main>
-
 
     <!--MARTHA-->
     <footer class="bg-gray-900 text-white py-16">
