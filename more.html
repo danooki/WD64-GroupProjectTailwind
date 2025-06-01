@@ -11,25 +11,32 @@
     <header>
       <!-- CONNI-->
       <nav
-        class="flex-row justify-between bg-[#0d0a13]/100 text-[#ce8432] z-12 items-center pr-4 h-10 w-full fixed top-0 drop-shadow-xl/60 flex sm:font-bold md:h-[70px] md:pr-15 md:pl-5"
+        class="flex-row justify-between bg-[#0d0a13]/100 text-[#ce8432] z-13 items-center pr-4 h-10 w-full fixed top-0 drop-shadow-xl/60 flex sm:font-bold md:h-[70px] md:pr-15 md:pl-5"
       >
-        <div class="flex text-[#ce8432] flex-row items-center justify-between">
-          <img
-            src="./imagesConni/mountainbike_logo_transparent.png"
-            class="w-[50px] h-[50px] mt-2 sm:mt-3 md:h-[100px] md:w-[100px]"
-          />
-          <p class="hidden md:inline text-[#ce8432] md:font-bold">
-            Mountainbike-Store
-          </p>
-        </div>
+        <a href="index.html">
+          <div
+            class="flex text-[#ce8432] flex-row items-center justify-between"
+          >
+            <img
+              src="./imagesConni/mountainbike_logo_transparent.png"
+              class="w-[50px] h-[50px] mt-2 sm:mt-3 md:h-[100px] md:w-[100px]"
+            />
+            <p class="hidden md:inline text-[#ce8432] md:font-bold">
+              Northrace-Bikes
+            </p>
+          </div>
+        </a>
         <ul class="flex flex-row justify-between gap-8">
-          <li>Home</li>
-          <li><a href="">Shop</a></li>
-          <li>About us</li>
-          <li>Contact</li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="more.html#contactForm">Shop</a></li>
+          <li><a href="more.html#contactForm">About us</a></li>
+          <li>
+            <a href="more.html#contactForm">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>
+    <!-- CONNI OVER-->
 
     <main>
       <section
@@ -344,61 +351,70 @@
         <!-- MARTHA -->
       </section>
 
-      <section>
-        <!-- CONTACT FORM -->
-        <!-- CONNI -->
-        <div>
-          <h2 class="contact-title">Get in Touch</h2>
-          <p class="contact-description">
-            Fill out the form below and we'll get back to you as soon as
-            possible.
-          </p>
-        </div>
+      <!--CONNI - CONTACT FORM -->
+      <section
+        id="contactForm"
+        name="contactForm"
+        class="py-24 bg-[#edeef1] shadow-1xl shadow-slate-900"
+      >
+        <!-- bg-linear-to-b from-[#ce7f2c] to-[#110824] -->
 
-        <form class="contact-form">
-          <div class="form-group-container">
-            <div class="form-group">
-              <label for="name" class="form-label">Name</label>
+        <div
+          class="px-8 py-10 mx-auto max-w-xl bg-[#3d3872] rounded-lg shadow-lg"
+        >
+          <h2 class="text-white text-4xl font-bold text-shadow-lg text-center">
+            Contact us
+          </h2>
+          <form class="mt-12 space-y-6 bg-[#f3f4f6] p-7 rounded-lg shadow-lg">
+            <div>
+              <label class="text-slate-800 font-medium block mb-2"
+                >Your Name</label
+              >
               <input
-                id="name"
-                name="name"
-                class="form-input"
-                placeholder="Your name"
                 type="text"
+                placeholder="Name"
+                class="w-full rounded-md py-2.5 px-4 border border-gray-300 text-sm outline-blue-500 bg-white"
               />
             </div>
-            <div class="form-group">
-              <label for="email" class="form-label">Email</label>
+            <div>
+              <label class="text-slate-800 font-medium block mb-2"
+                >Your Email</label
+              >
               <input
-                id="email"
-                name="email"
-                class="form-input"
-                placeholder="Your email"
                 type="email"
+                placeholder="Email"
+                class="w-full rounded-md py-2.5 px-4 border border-gray-300 text-sm outline-blue-500 bg-white"
               />
             </div>
-            <div class="form-group">
-              <label for="phone" class="form-label">Phone</label>
+            <div>
+              <label class="text-slate-800 font-medium block mb-2"
+                >Subject</label
+              >
               <input
-                id="phone"
-                name="phone"
-                class="form-input"
-                placeholder="+1 (234) 56789"
                 type="text"
+                placeholder="Subject"
+                class="w-full rounded-md py-2.5 px-4 border border-gray-300 outline-blue-500 bg-white"
               />
             </div>
-            <div class="form-group">
-              <label for="message" class="form-label">Message</label>
+            <div>
+              <label class="text-slate-800 font-medium block mb-2"
+                >Message</label
+              >
               <textarea
-                class="form-textarea"
-                id="message"
-                name="message"
-                placeholder="Your message"
+                placeholder="Message"
+                rows="6"
+                class="w-full rounded-md px-4 border border-gray-300 text-sm pt-2.5 outline-blue-500 bg-white"
               ></textarea>
             </div>
-          </div>
-          <button class="form-submit" type="submit">Send Message</button>
-        </form>
+            <button
+              type="button"
+              class="text-whiter bg-amber-600 hover:bg-slate-900 hover:text-white hover:font-bold rounded-md text-[15px] font-medium px-4 py-2 w-full mx-auto block cursor-pointer"
+            >
+              Send
+            </button>
+          </form>
+        </div>
+        <!--CONNI OVER - CONTACT FORM  -->
       </section>
 
       <section
