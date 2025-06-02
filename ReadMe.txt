@@ -11,10 +11,10 @@ FR001	Figma Wireframe Creation	        27.05✅
 FR002	Public GitHub Repository	        27.05✅
 FR003	GitHub Pages Deployment	            27.05✅
 FR004	Semantic HTML Structure	            27.05✅
-FR005	Tailwind CSS Integration            27-28.05 🚧🚧🚧
-FR006	Mobile-First Design	                🚧🚧🚧
-FR007	Incremental Development with PRs	
-FR008	Design Personalisation	
+FR005	Tailwind CSS Integration            27-28.05 ✅
+FR006	Mobile-First Design	                30.05✅
+FR007	Incremental Development with PRs	🚧🚧🚧
+FR008	Design Personalisation	            02.06
 FR009	Single Layout System	
 
 
@@ -62,3 +62,27 @@ FR009	Single Layout System
 
 <!-- Highlight Yellow -->
 <h9 class="text-4xl text-[#Ce751D]">350€</h9>
+
+
+
+# UPDATE REVIEWS
+
+02.06 Review 1                      02.06 🚧🚧🚧            
+    -index.html:
+        @ Leo: Push from Leo with "Latest news"
+        @ Conni: New section that indicates "about us"
+        @ Leo: Reduce the products to main 3 and link to more.html
+        @ Leo: Expand FAQ.
+    -more.html
+        @ Daniel: Add more products.
+        @ Add History and Mission.
+
+TBD:
+    - Text font
+    - Text sizes
+    - Logical Color Palette
+    - Internal Link System
+    - Add hover / focus style on buttons.
+    - Unified Spacing System
+    - Shadow for depth
+    - Consistent Iconography
