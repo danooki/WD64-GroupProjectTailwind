@@ -1,250 +1,475 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-</head>
+    <title>aHeadWithoutTitleThrowsAnError</title>
+  </head>
 
-<body>
+  <body>
     <header>
-        <!-- CONNI-->
+      <!-- CONNI-->
+      <nav
+        class="flex-row justify-between bg-[#101828]/95 text-[#ce8432] z-13 items-center pr-4 h-10 w-full fixed top-0 drop-shadow-xl/60 flex sm:font-bold md:h-[70px] md:pr-15 md:pl-5"
+      >
+        <a href="index.html">
+          <div
+            class="flex text-[#ce8432] flex-row items-center justify-between"
+          >
+            <img
+              src="./imagesConni/mountainbike_logo_transparent.png"
+              class="w-[50px] h-[50px] mt-2 sm:mt-3 md:h-[100px] md:w-[100px]"
+            />
+            <p class="hidden md:inline text-[#ce8432] md:font-bold">
+              Northrace-Bikes
+            </p>
+          </div>
+        </a>
+        <ul class="flex flex-row justify-between gap-8">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="more.html#customparts">Shop</a></li>
+          <li><a href="more.html#contactForm">About us</a></li>
+          <li>
+            <a href="more.html#contactForm">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </header>
+    <!-- CONNI OVER-->
 
     <main>
-        <section id="customparts" class="relative bg-[url('https://images.pexels.com/photos/775201/pexels-photo-775201.jpeg')]
-            bg-cover bg-center bg-fixed min-h-screen">
-            <!-- CUSTOM PARTS CUSTOM PARTS CUSTOM PARTS CUSTOM PARTS-->
-            <!-- DANIEL DANIEL DANIEL DANIEL DANIEL-->
+      <section
+        id="customparts"
+        class="relative bg-[url('https://images.pexels.com/photos/775201/pexels-photo-775201.jpeg')] bg-cover bg-center bg-fixed min-h-screen"
+      >
+        <!-- CUSTOM PARTS CUSTOM PARTS CUSTOM PARTS CUSTOM PARTS-->
+        <!-- DANIEL DANIEL DANIEL DANIEL DANIEL-->
 
-            <!-- gradient div behind the whole secton (inset-0) -->
-            <div class="absolute inset-0 bg-gradient-to-b from-[#1D1D43]/60 via-[#3D3772]/70 to-[#0E0A14]/90 z-0">
+        <!-- gradient div behind the whole secton (inset-0) -->
+        <div
+          class="absolute inset-0 bg-gradient-to-b from-[#1D1D43]/60 via-[#3D3772]/70 to-[#0E0A14]/90 z-0"
+        ></div>
 
+        <!-- divison of title and cards -->
+        <div class="relative z-10 py-9">
+          <!-- title division -->
+          <div class="max-w-4xl mx-auto text-center mb-10">
+            <h1 class="text-4xl text-white font-bold text-shadow-lg">
+              Our Custom Parts
+            </h1>
+            <h2 class="text-3xl text-white font-semibold mb-2">
+              just for you!
+            </h2>
+          </div>
+
+          <!-- box for cards and create grid -->
+          <div
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-1 gap-y-4 max-w-8xl mx-auto"
+          >
+            <!-- CARD SPACE-->
+            <figure class="bg-white/90 p-3 shadow-lg max-w-4/5 mx-auto">
+              <img
+                class="w-full aspect-[3/2] object-cover"
+                src="https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_1000%2Cq_80%2Cw_1920/rv3qpjfwri1ecfh3ajqf/Banner_HelmetSizeandFit.jpg"
+                alt="Helmets for everyone"
+              />
+              <figcaption>
+                <h3 class="text-xl font-semibold text-center">
+                  Protective Helmets
+                </h3>
+                <br />
+                <p>
+                  Push your limits without compromising safety. Our range of
+                  mountain bike helmets is engineered for rugged trails and
+                  high-speed descents.
+                </p>
+              </figcaption>
+            </figure>
+
+            <!-- CARD SPACE-->
+            <figure class="bg-white/90 p-3 shadow-lg max-w-4/5 mx-auto">
+              <img
+                class="w-full aspect-[3/2] object-cover"
+                img
+                src="https://preview.redd.it/blue-pedals-v0-bkfrzp2h7i0e1.jpg?width=640&crop=smart&auto=webp&s=3a186d4ec295b5aecbd374e6cd615e1ea105135d"
+                alt="Pedal to the medal"
+              />
+              <figcaption>
+                <h3 class="text-xl font-semibold text-center">Firm Pedals</h3>
+                <br />
+                <p>
+                  Your pedals are your connection to power. Whether you're
+                  grinding up rocky climbs or bombing technical descents, our
+                  mountain bike pedals deliver unmatched traction, control, and
+                  durability.
+                </p>
+              </figcaption>
+            </figure>
+
+            <!-- CARD SPACE-->
+            <figure class="bg-white/90 p-3 shadow-lg max-w-4/5 mx-auto">
+              <img
+                class="w-full aspect-[3/2] object-cover"
+                img
+                src="https://www.dakine.com/cdn/shop/products/SYNCLINEGELGLOVE-DEEPBLUE-10003740-DEEPBLUE-LIFESTYLE02_grande.jpg?v=1677605155"
+                alt="Shoes for the hand"
+              />
+              <figcaption>
+                <h3 class="text-xl font-semibold text-center">
+                  Feel the Gloves
+                </h3>
+                <br />
+                <p>
+                  Don’t let rough terrain take a toll on your hands. Our MTB
+                  gloves are built to give you grip, comfort, and protection on
+                  every ride. Breathable, shock-absorbing, and designed for
+                  perfect bar feel, they’re your second skin on the trail.
+                </p>
+              </figcaption>
+            </figure>
+
+            <!-- CARD SPACE-->
+            <figure class="bg-white/90 p-3 shadow-lg max-w-4/5 mx-auto">
+              <img
+                class="w-full aspect-[3/2] object-cover"
+                src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Library-Sites-canyon-shared/default/dw987cdcae/images/blog/E-Bike/blog-e-bike-durch-winter-image3.jpg?sw=1064&sfrm=jpg&q=80"
+                alt="Delicious taste"
+              />
+              <figcaption>
+                <h3 class="text-xl font-semibold text-center">Bike Lights</h3>
+                <br />
+                <p>
+                  Own the night with ultra-bright, trail-rated bike lights.
+                  Whether you're dodging roots on a twilight singletrack or
+                  riding home from a late session, our lights are built to shine
+                  through dust, fog, and darkness. Mount, ride, and light the
+                  way.
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="prices"
+        class="relative bg-[url('https://images.pexels.com/photos/163407/cyclists-trail-bike-clouds-163407.jpeg')] bg-cover bg-center"
+      >
+        <!-- PRICES PRICES PRICES PRICES-->
+        <!-- DANIEL DANIEL DANIEL DANIEL -->
+
+        <!-- gradient div behind the whole secton-->
+        <div
+          class="absolute inset-0 bg-gradient-to-b from-[#3D3772]/70 to-[#CE751D]/90 z-0"
+        ></div>
+
+        <!-- divison of title and cards -->
+        <div class="relative z-10 py-9">
+          <!-- title box-->
+          <div class="max-w-4xl mx-auto text-center mb-10">
+            <h1 class="text-4xl text-white font-bold text-shadow-lg">
+              Service Pricing
+            </h1>
+          </div>
+
+          <div
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto"
+          >
+            <!-- CARD START -->
+            <div
+              class="bg-[#1d1d43]/30 text-gray-800 p-6 shadow-lg w-full min-w-[250px]"
+            >
+              <div
+                class="flex flex-col bg-[#1d1d43] p-2 shadow-lg max-w mx-auto"
+              >
+                <h2 class="text-2xl text-white font-semibold mb-2 text-center">
+                  Standard Service
+                </h2>
+                <br />
+                <h9
+                  class="text-4xl text-[#Ce751D] font-bold text-shadow-lg text-center"
+                  >350€</h9
+                >
+              </div>
+              <div class="bg-white p-3 shadow-lg max-w mx-auto">
+                <p class="font-semibold">
+                  Perfect for riders who want a solid baseline without extra
+                  fuss.
+                </p>
+                <ul class="space-y-1 p-4">
+                  <li>Comprehensive bike safety check</li>
+                  <li>Basic tune-up: brakes, gears, and tire pressure</li>
+                  <li>Clean and lubricate drivetrain</li>
+                  <li>Adjust seat and handlebar for comfort</li>
+                  <li>Ready to hit the trail</li>
+                </ul>
+                <p class="font-semibold">
+                  Ideal for: Casual riders and first-time buyers who want
+                  dependable performance.
+                </p>
+              </div>
             </div>
 
-            <!-- divison of title and cards -->
-            <div class="relative z-10 py-9">
-
-                <!-- title division -->
-                <div class="max-w-4xl mx-auto text-center mb-10">
-                    <h1 class="text-4xl text-white font-bold text-shadow-lg">Our Custom Parts</h1>
-                    <h2 class="text-3xl text-white font-semibold mb-2">just for you!</h2>
-                </div>
-
-                <!-- box for cards and create grid -->
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-1 gap-y-4 max-w-8xl mx-auto">
-
-                    <!-- CARD SPACE-->
-                    <figure class="bg-white/90 p-3 shadow-lg max-w-4/5 mx-auto">
-                        <img class="w-full aspect-[3/2] object-cover"
-                            src="https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_1000%2Cq_80%2Cw_1920/rv3qpjfwri1ecfh3ajqf/Banner_HelmetSizeandFit.jpg"
-                            alt="Helmets for everyone" />
-                        <figcaption>
-                            <h3 class="text-xl font-semibold text-center">Protective Helmets</h3><br>
-                            <p>Push your limits without compromising safety. Our range of mountain bike helmets is
-                                engineered for rugged trails and high-speed descents.
-                            </p>
-                        </figcaption>
-                    </figure>
-
-                    <!-- CARD SPACE-->
-                    <figure class="bg-white/90 p-3 shadow-lg max-w-4/5 mx-auto">
-                        <img class="w-full aspect-[3/2] object-cover" img
-                            src="https://preview.redd.it/blue-pedals-v0-bkfrzp2h7i0e1.jpg?width=640&crop=smart&auto=webp&s=3a186d4ec295b5aecbd374e6cd615e1ea105135d"
-                            alt="Pedal to the medal" />
-                        <figcaption>
-                            <h3 class="text-xl font-semibold text-center">Firm Pedals</h3><br>
-                            <p>Your pedals are your connection to power. Whether you're grinding up rocky climbs or
-                                bombing technical descents, our mountain bike pedals deliver unmatched traction,
-                                control, and durability.
-                            </p>
-                        </figcaption>
-                    </figure>
-
-                    <!-- CARD SPACE-->
-                    <figure class="bg-white/90 p-3 shadow-lg max-w-4/5 mx-auto">
-                        <img class="w-full aspect-[3/2] object-cover" img
-                            src="https://www.dakine.com/cdn/shop/products/SYNCLINEGELGLOVE-DEEPBLUE-10003740-DEEPBLUE-LIFESTYLE02_grande.jpg?v=1677605155"
-                            alt="Shoes for the hand" />
-                        <figcaption>
-                            <h3 class="text-xl font-semibold text-center">Feel the Gloves</h3><br>
-                            <p>Don’t let rough terrain take a toll on your hands. Our MTB gloves are built to give you
-                                grip, comfort, and protection on every ride. Breathable, shock-absorbing, and designed
-                                for perfect bar feel, they’re your second skin on the trail.
-                            </p>
-                        </figcaption>
-                    </figure>
-
-                    <!-- CARD SPACE-->
-                    <figure class="bg-white/90 p-3 shadow-lg max-w-4/5 mx-auto">
-                        <img class="w-full aspect-[3/2] object-cover"
-                            src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Library-Sites-canyon-shared/default/dw987cdcae/images/blog/E-Bike/blog-e-bike-durch-winter-image3.jpg?sw=1064&sfrm=jpg&q=80"
-                            alt="Delicious taste" />
-                        <figcaption>
-                            <h3 class="text-xl font-semibold text-center">Bike Lights</h3><br>
-                            <p>Own the night with ultra-bright, trail-rated bike lights. Whether you're dodging roots on
-                                a twilight singletrack or riding home from a late session, our lights are built to shine
-                                through dust, fog, and darkness. Mount, ride, and light the way.
-                            </p>
-                        </figcaption>
-                    </figure>
-                </div>
+            <!-- CARD START -->
+            <div
+              class="bg-[#1d1d43]/30 text-gray-800 p-6 shadow-lg w-full min-w-[250px]"
+            >
+              <div
+                class="flex flex-col bg-[#1d1d43] p-2 shadow-lg max-w mx-auto"
+              >
+                <h2 class="text-2xl text-white font-semibold mb-2 text-center">
+                  Premium Service
+                </h2>
+                <br />
+                <h9
+                  class="text-4xl text-[#Ce751D] font-bold text-shadow-lg text-center"
+                  >650€</h9
+                >
+              </div>
+              <div class="bg-white p-3 shadow-lg max-w mx-auto">
+                <p class="font-semibold">
+                  For those who demand more control and durability on rough
+                  terrain. Includes everything in Standard, plus:
+                </p>
+                <ul class="space-y-1 p-4">
+                  <li>Advanced brake bleed and gear tuning</li>
+                  <li>Wheel truing and spoke tension adjustment</li>
+                  <li>
+                    Replacement of worn brake pads or cables (parts extra)
+                  </li>
+                  <li>Protective frame polish and rust prevention</li>
+                  <li>Complimentary helmet fit check and safety tips</li>
+                </ul>
+                <p class="font-semibold">
+                  Ideal for: Frequent riders looking to keep their bike
+                  trail-ready with enhanced performance and safety.
+                </p>
+              </div>
             </div>
 
-        </section>
+            <!-- CARD START -->
+            <div
+              class="bg-[#1d1d43]/30 text-gray-800 p-6 shadow-lg w-full min-w-[250px]"
+            >
+              <div
+                class="flex flex-col bg-[#1d1d43] p-2 shadow-lg max-w mx-auto"
+              >
+                <h2 class="text-2xl text-white font-semibold mb-2 text-center">
+                  Deluxe Service
+                </h2>
+                <br />
+                <h9
+                  class="text-4xl text-[#Ce751D] font-bold text-shadow-lg text-center"
+                  >1150€</h9
+                >
+              </div>
+              <div class="bg-white p-3 shadow-lg max-w mx-auto">
+                <p class="font-semibold">
+                  Includes everything in Premium, plus:
+                </p>
+                <ul class="space-y-1 p-4">
+                  <li>Full suspension overhaul and tuning</li>
+                  <li>
+                    Replacement of worn parts (brake pads, cables, chain)
+                    included
+                  </li>
+                  <li>
+                    Professional bike fitting session for max comfort and
+                    efficiency
+                  </li>
+                  <li>
+                    Installation of premium accessories (lights, pedals, or
+                    gloves of your choice)
+                  </li>
+                  <li>Priority scheduling with express turnaround</li>
+                </ul>
+                <p class="font-semibold">
+                  Ideal for: Enthusiasts and competitive riders seeking peak
+                  performance and personalized setup.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-
-
-        <section id="prices" class="relative bg-[url('https://images.pexels.com/photos/163407/cyclists-trail-bike-clouds-163407.jpeg')]
-            bg-cover bg-center">
-            <!-- PRICES PRICES PRICES PRICES-->
-            <!-- DANIEL DANIEL DANIEL DANIEL -->
-
-            <!-- gradient div behind the whole secton-->
-            <div class="absolute inset-0 bg-gradient-to-b from-[#3D3772]/70 to-[#CE751D]/90 z-0"></div>
-
-            <!-- divison of title and cards -->
-            <div class="relative z-10 py-9">
-
-                <!-- title box-->
-                <div class="max-w-4xl mx-auto text-center mb-10">
-                    <h1 class="text-4xl text-white font-bold text-shadow-lg">Service Pricing</h1>
-                </div>
-
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
-
-                    <!-- CARD START -->
-                    <div class="bg-[#1d1d43]/30 text-gray-800 p-6 shadow-lg w-full min-w-[250px]">
-                        <div class="flex flex-col bg-[#1d1d43] p-2 shadow-lg max-w mx-auto">
-                            <h2 class="text-2xl text-white font-semibold mb-2 text-center">Standard Service</h2></br>
-                            <h9 class="text-4xl text-[#Ce751D] font-bold text-shadow-lg text-center">350€</h9>
-                        </div>
-                        <div class="bg-white p-3 shadow-lg max-w mx-auto">
-                            <p class="font-semibold">Perfect for riders who want a solid baseline without extra fuss.
-                            </p>
-                            <ul class="space-y-1 p-4">
-                                <li>Comprehensive bike safety check</li>
-                                <li>Basic tune-up: brakes, gears, and tire pressure</li>
-                                <li>Clean and lubricate drivetrain</li>
-                                <li>Adjust seat and handlebar for comfort</li>
-                                <li>Ready to hit the trail</li>
-                            </ul>
-                            <p class="font-semibold">Ideal for: Casual riders and first-time buyers who want dependable
-                                performance.
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- CARD START -->
-                    <div class="bg-[#1d1d43]/30 text-gray-800 p-6 shadow-lg w-full min-w-[250px]">
-                        <div class="flex flex-col bg-[#1d1d43] p-2 shadow-lg max-w mx-auto">
-                            <h2 class="text-2xl text-white font-semibold mb-2 text-center">Premium Service</h2></br>
-                            <h9 class="text-4xl text-[#Ce751D] font-bold text-shadow-lg text-center">650€</h9>
-                        </div>
-                        <div class="bg-white p-3 shadow-lg max-w mx-auto">
-                            <p class="font-semibold">For those who demand more control and durability on rough terrain.
-                                Includes everything in Standard, plus:
-                            </p>
-                            <ul class="space-y-1 p-4">
-                                <li>Advanced brake bleed and gear tuning</li>
-                                <li>Wheel truing and spoke tension adjustment</li>
-                                <li>Replacement of worn brake pads or cables (parts extra)</li>
-                                <li>Protective frame polish and rust prevention</li>
-                                <li>Complimentary helmet fit check and safety tips</li>
-                            </ul>
-                            <p class="font-semibold">Ideal for: Frequent riders looking to keep their bike trail-ready
-                                with enhanced
-                                performance and safety.
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- CARD START -->
-                    <div class="bg-[#1d1d43]/30 text-gray-800 p-6 shadow-lg w-full min-w-[250px]">
-                        <div class="flex flex-col bg-[#1d1d43] p-2 shadow-lg max-w mx-auto">
-                            <h2 class="text-2xl text-white font-semibold mb-2 text-center">Deluxe Service</h2></br>
-                            <h9 class="text-4xl text-[#Ce751D] font-bold text-shadow-lg text-center">1150€</h9>
-                        </div>
-                        <div class="bg-white p-3 shadow-lg max-w mx-auto">
-                            <p class="font-semibold">Includes everything in Premium, plus:</p>
-                            <ul class="space-y-1 p-4">
-                                <li>Full suspension overhaul and tuning</li>
-                                <li>Replacement of worn parts (brake pads, cables, chain) included</li>
-                                <li>Professional bike fitting session for max comfort and efficiency</li>
-                                <li>Installation of premium accessories (lights, pedals, or gloves of your choice)</li>
-                                <li>Priority scheduling with express turnaround</li>
-                            </ul>
-                            <p class="font-semibold">Ideal for: Enthusiasts and competitive riders seeking peak
-                                performance and personalized
-                                setup.
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
+      <section class="py-16 bg-gray-100">
+        <div class="max-w-4xl mx-auto px-4">
+          <h2 class="text-3xl font-bold text-center text-blue-800 mb-8">
+            Frequently Asked Questions (FAQ)
+          </h2>
+          <div class="space-y-6">
+            <!-- FAQ 1 -->
+            <div class="bg-white p-6 rounded-lg shadow">
+              <h3 class="text-xl font-semibold mb-2 text-gray-800">
+                1. What services do you offer?
+              </h3>
+              <p class="text-gray-600">
+                We offer a variety of bike services ranging from standard
+                maintenance to deluxe performance upgrades. See our pricing
+                section for full details.
+              </p>
             </div>
 
-        </section>
-
-
-        <section>
-            <!-- WHY CHOOSE US -->
-            <!-- MARTHA -->
-        </section>
-
-
-
-        <section>
-            <!-- CONTACT FORM -->
-            <!-- CONNI -->
-        </section>
-
-        <section id="suscribe" class="relative bg-[url('https://images.pexels.com/photos/733740/pexels-photo-733740.jpeg')]
-            bg-cover bg-center">
-            <!-- SUSCRIBE -->
-            <!-- DANIEL -->
-
-            <!-- gradient div behind the whole secton-->
-            <div class="absolute inset-0 bg-gradient-to-b from-[#642F1F]/60 to-[#0E0A14]/90 z-0"></div>
-
-            <!-- divison of title and cards -->
-            <div class="relative z-10 py-16 px-4 max-w-4xl mx-auto text-center">
-
-                <!-- title box-->
-                <div class="max-w-4xl mx-auto text-center mb-10">
-                    <h1 class="text-4xl text-white font-bold text-shadow-lg">Stay in touch!</h1>
-                </div>
-
-                <!-- content: text, form and button area -->
-                <div class="flex flex-col md:flex-row items-center justify-center gap-6">
-
-                    <!-- small text left -->
-                    <p class="text-white text-lg font-light md:mr-4">Join our newsletter</p>
-
-                    <!-- suscribe section box-->
-                    <div>
-                        <!-- Input and button wrapper -->
-                        <form class="flex flex-col sm:flex-row items-center gap-2">
-                            <input type="email" placeholder="Enter your email"
-                                class="px-4 py-2 rounded bg-white/90 text-gray-800 focus:outline-none focus:ring-2 focus:ring-amber-500" />
-                            <button type="submit"
-                                class="bg-slate-900 text-amber-500 hover:bg-amber-600 hover:text-white font-semibold px-6 py-2 rounded transition">
-                                Suscribe
-                            </button>
-                        </form>
-                    </div>
-                </div>
+            <!-- FAQ 2 -->
+            <div class="bg-white p-6 rounded-lg shadow">
+              <h3 class="text-xl font-semibold mb-2 text-gray-800">
+                2. How do I book a service?
+              </h3>
+              <p class="text-gray-600">
+                You can book a service by contacting us directly through the
+                contact form or visiting our service center in person.
+              </p>
             </div>
 
-        </section>
+            <!-- FAQ 3 -->
+            <div class="bg-white p-6 rounded-lg shadow">
+              <h3 class="text-xl font-semibold mb-2 text-gray-800">
+                3. Do you offer group discounts?
+              </h3>
+              <p class="text-gray-600">
+                Yes! We offer group and club discounts. Please reach out to our
+                team for custom quotes and scheduling.
+              </p>
+            </div>
+            <!-- FAQ 4 -->
+            <div class="bg-white p-6 rounded-lg shadow">
+              <h3 class="text-xl font-semibold mb-2 text-gray-800">
+                4. Can I get one for free?
+              </h3>
+              <p class="text-gray-600">
+                No Way! we are doing business, not charity :)
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <section>
+        <!-- WHY CHOOSE US -->
+        <!-- MARTHA -->
+      </section>
+
+      <!--CONNI - CONTACT FORM -->
+      <section
+        id="contactForm"
+        class="py-24 bg-[#f3f4f6] shadow-2xl shadow-slate-900"
+      >
+        <!-- bg-linear-to-b from-[#ce7f2c] to-[#110824] -->
+
+        <div
+          class="px-8 py-10 mx-auto max-w-xl bg-[#1d1d43] rounded-lg shadow-lg"
+        >
+          <h2 class="text-white text-4xl font-bold text-shadow-lg text-center">
+            Contact us
+          </h2>
+          <form class="mt-12 space-y-6 bg-[#f3f4f6] p-7 rounded-lg shadow-lg">
+            <div>
+              <label class="text-slate-800 font-medium block mb-2"
+                >Your Name</label
+              >
+              <input
+                type="text"
+                placeholder="Name"
+                class="w-full rounded-md py-2.5 px-4 border border-gray-300 text-sm outline-blue-500 bg-white"
+              />
+            </div>
+            <div>
+              <label class="text-slate-800 font-medium block mb-2"
+                >Your Email</label
+              >
+              <input
+                type="email"
+                placeholder="Email"
+                class="w-full rounded-md py-2.5 px-4 border border-gray-300 text-sm outline-blue-500 bg-white"
+              />
+            </div>
+            <div>
+              <label class="text-slate-800 font-medium block mb-2"
+                >Subject</label
+              >
+              <input
+                type="text"
+                placeholder="Subject"
+                class="w-full rounded-md py-2.5 px-4 border border-gray-300 outline-blue-500 bg-white"
+              />
+            </div>
+            <div>
+              <label class="text-slate-800 font-medium block mb-2"
+                >Message</label
+              >
+              <textarea
+                placeholder="Message"
+                rows="6"
+                class="w-full rounded-md px-4 border border-gray-300 text-sm pt-2.5 outline-blue-500 bg-white"
+              ></textarea>
+            </div>
+            <button
+              type="button"
+              class="text-whiter bg-amber-600 hover:bg-slate-900 hover:text-white hover:font-bold rounded-md text-[15px] font-medium px-4 py-2 w-full mx-auto block cursor-pointer"
+            >
+              Send
+            </button>
+          </form>
+        </div>
+        <!--CONNI OVER - CONTACT FORM  -->
+      </section>
+
+      <section
+        id="suscribe"
+        class="relative bg-[url('https://images.pexels.com/photos/733740/pexels-photo-733740.jpeg')] bg-cover bg-center"
+      >
+        <!-- SUSCRIBE -->
+        <!-- DANIEL -->
+
+        <!-- gradient div behind the whole secton-->
+        <div
+          class="absolute inset-0 bg-gradient-to-b from-[#642F1F]/60 to-[#0E0A14]/90 z-0"
+        ></div>
+
+        <!-- divison of title and cards -->
+        <div class="relative z-10 py-16 px-4 max-w-4xl mx-auto text-center">
+          <!-- title box-->
+          <div class="max-w-4xl mx-auto text-center mb-10">
+            <h1 class="text-4xl text-white font-bold text-shadow-lg">
+              Stay in touch!
+            </h1>
+          </div>
+
+          <!-- content: text, form and button area -->
+          <div
+            class="flex flex-col md:flex-row items-center justify-center gap-6"
+          >
+            <!-- small text left -->
+            <p class="text-white text-lg font-light md:mr-4">
+              Join our newsletter
+            </p>
+
+            <!-- suscribe section box-->
+            <div>
+              <!-- Input and button wrapper -->
+              <form class="flex flex-col sm:flex-row items-center gap-2">
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  class="px-4 py-2 rounded bg-white/90 text-gray-800 focus:outline-none focus:ring-2 focus:ring-amber-500"
+                />
+                <button
+                  type="submit"
+                  class="bg-slate-900 text-amber-500 hover:bg-amber-600 hover:text-white font-semibold px-6 py-2 rounded transition"
+                >
+                  Suscribe
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <!--MARTHA-->
+      <!--MARTHA-->
     </footer>
-
-</body>
-
+  </body>
 </html>
