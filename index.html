@@ -3,9 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Nortrace Bikes</title>
     <link rel="stylesheet" href="style.css" />
-    <title>placeholder</title>
+    <!--FONT POPPINS-->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style type="text/tailwindcss">
+      @layer base {
+        body {
+          @apply font-[Poppins];
+        }
+
+        h2 {
+          @apply text-2xl font-semibold mb-2;
+        }
+
+        h3 {
+          @apply text-xl;
+        }
+      }
+    </style>
   </head>
 
   <body>
@@ -15,7 +35,7 @@
         class="bg-[url(./imagesConni/bikeheader.jpg)] bg-cover bg-center h-[600px] md:h-[700px] lg:h-[750px]"
       >
         <nav
-          class="flex-row justify-between bg-[#101828]/95 text-[#ce8432] z-13 items-center pr-4 h-10 w-full fixed top-0 drop-shadow-xl/60 flex sm:font-bold md:h-[70px] md:pr-15 md:pl-5"
+          class="flex-row justify-between bg-[#101828]/95 text-[#ce8432] z-13 items-center h-10 w-full fixed top-0 drop-shadow-xl/60 flex sm:font-bold md:h-[70px] md:pr-15 md:pl-[2rem] lg:pl-[3rem] xl:pl-[5rem]"
         >
           <a href="index.html">
             <div
@@ -332,6 +352,59 @@
             <p class="text-sm text-gray-600">
               Especially when it is a Northrace-Bike!
             </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- MARTHA -->
+
+    <section class="bg-white py-20 text-[#0E0A14] ml-5 mr-5">
+      <div class="max-w-7xl mr-30 px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-7">
+          <!-- Cycles -->
+          <div>
+            <h3 class="text-lg font-semibold mb-4">Cycles</h3>
+            <ul class="space-y-2 text-sm">
+              <li>Mountainbikes</li>
+              <li>Tracking Bikes</li>
+              <li>Race Bikes</li>
+              <li>Canyon Bikes</li>
+            </ul>
+          </div>
+
+          <!-- Gear Up! -->
+          <div>
+            <h3 class="text-lg font-semibold mb-4">Gear Up!</h3>
+            <ul class="space-y-2 text-sm">
+              <li>Tires</li>
+              <li>Breaks</li>
+              <li>Clothes</li>
+              <li>Safety Gear</li>
+            </ul>
+          </div>
+
+          <!-- Subscribe! -->
+          <div>
+            <h3 class="text-lg font-semibold mb-4">Newsletter</h3>
+            <p class="text-sm mb-4">
+              Subscribe and enjoy special offers, new arrival early bird
+              discount and so much more!
+            </p>
+            <form
+              class="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-2"
+            >
+              <input
+                type="email"
+                placeholder="Enter your email address here :)"
+                class="w-full sm:w-auto px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#CE751D]"
+              />
+              <button
+                type="submit"
+                class="px-4 py-2 bg-[#CE751D] text-white rounded-md hover:bg-opacity-90 transition"
+              >
+                Subscribe!
+              </button>
+            </form>
           </div>
         </div>
       </div>
