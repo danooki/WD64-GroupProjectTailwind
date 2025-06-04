@@ -13,9 +13,9 @@ FR003	GitHub Pages Deployment	            27.05✅
 FR004	Semantic HTML Structure	            27.05✅
 FR005	Tailwind CSS Integration            27-28.05 ✅
 FR006	Mobile-First Design	                30.05✅
-FR007	Incremental Development with PRs	🚧🚧🚧
-FR008	Design Personalisation	            02.06
-FR009	Single Layout System	
+FR007	Incremental Development with PRs	02.06✅
+FR008	Design Personalisation	            03.06✅
+FR009	Single Layout System	            ✅
 
 
 
@@ -65,9 +65,9 @@ FR009	Single Layout System
 
 
 
-# UPDATE REVIEWS 🚧🚧🚧  🚧🚧🚧  
+# UPDATE REVIEWS 🚧🚧🚧    
 
-02.06 Review 1                      02.06 🚧🚧🚧            
+02.06 Review 1                      02.06 🚧            
     -index.html:
         @ Leo: Push from Leo with "Latest news"
         @ Conni: New section that indicates "about us"
@@ -75,14 +75,15 @@ FR009	Single Layout System
         @ Leo: Expand FAQ.
     -more.html
         @ Daniel: Add more products.
-        @ Add History and Mission.
+        @ Add About us or History & Mission.
 
-TBD:
-    - Text font
-    - Text sizes
-    - Logical Color Palette
-    - Internal Link System
+03.06 Review 2                      03.06 🚧            
     - Add hover / focus style on buttons.
     - Unified Spacing System
     - Shadow for depth
-    - Consistent Iconography
+    - Reorder sections
+
+04.06 FINAL REVIEW               04.06 🚧
+    - Background Colors
+    - Text Fonts
+    - Internal link system.
