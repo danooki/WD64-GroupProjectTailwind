@@ -1,707 +1,605 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="style.css" />
-    <title>aHeadWithoutTitleThrowsAnError</title>
-  </head>
 
-  <body>
-    <header>
-      <!-- CONNI-->
-      <nav
-        class="flex-row justify-between bg-[#101828]/95 text-[#ce8432] z-13 items-center pr-4 h-10 w-full fixed top-0 drop-shadow-xl/60 flex sm:font-bold md:h-[70px] md:pr-15 md:pl-5"
-      >
-        <a href="index.html">
-          <div
-            class="flex text-[#ce8432] flex-row items-center justify-between"
-          >
-            <img
-              src="./imagesConni/mountainbike_logo_transparent.png"
-              class="w-[50px] h-[50px] mt-2 sm:mt-3 md:h-[100px] md:w-[100px]"
-            />
-            <p class="hidden md:inline text-[#ce8432] md:font-bold">
-              Northrace-Bikes
-            </p>
-          </div>
-        </a>
-        <ul class="flex flex-row justify-between gap-8">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="more.html#customparts">Shop</a></li>
-          <li><a href="more.html#historymission">About us</a></li>
-          <li>
-            <a href="more.html#contactForm">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <!-- CONNI OVER-->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="style.css" />
+  <title>aHeadWithoutTitleThrowsAnError</title>
+</head>
 
-    <main>
-      <section
-        id="customparts"
-        class="relative bg-[url('https://images.pexels.com/photos/775201/pexels-photo-775201.jpeg')] bg-cover bg-center bg-fixed min-h-screen"
-      >
-        <!-- CUSTOM PARTS CUSTOM PARTS CUSTOM PARTS CUSTOM PARTS-->
-        <!-- DANIEL DANIEL DANIEL DANIEL DANIEL-->
-
-        <!-- gradient div behind the whole secton (inset-0) -->
-        <div
-          class="absolute inset-0 bg-gradient-to-b from-[#1D1D43]/60 via-[#3D3772]/70 to-[#0E0A14]/90 z-0"
-        ></div>
-
-        <!-- divison of title and cards -->
-        <div class="relative z-10 py-9">
-          <!-- title division -->
-          <div class="max-w-4xl mx-auto text-center mb-10">
-            <h1 class="text-4xl text-white font-bold text-shadow-lg">
-              Our Custom Parts
-            </h1>
-            <h2 class="text-3xl text-white font-semibold mb-2">
-              just for you!
-            </h2>
-          </div>
-
-          <!-- box for cards and create grid -->
-          <div
-            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-1 gap-y-4 max-w-8xl mx-auto"
-          >
-            <!-- CARD SPACE-->
-            <figure class="bg-white/90 p-3 shadow-lg max-w-4/5 mx-auto">
-              <img
-                class="w-full aspect-[3/2] object-cover"
-                src="https://images.pexels.com/photos/8755529/pexels-photo-8755529.jpeg"
-                alt="The frame is the soul of your bike"
-              />
-              <figcaption>
-                <h3 class="text-xl font-semibold text-center">
-                  Mountain Bike Frames
-                </h3>
-                <br />
-                <p>
-                  Everything starts with the frame. Whether you're crushing
-                  climbs or flying down descents, your frame dictates how your
-                  bike handles the trail. Ours are engineered for strength,
-                  agility, and control—with geometry tuned for aggressive riding
-                  and materials that take a beating without compromise.
-                </p>
-                <ul class="space-y-1 p-4">
-                  <li>Lightweight aluminum, carbon, or steel options</li>
-                  <li>Trail, enduro, and downhill geometries</li>
-                </ul>
-              </figcaption>
-            </figure>
-
-            <!-- CARD SPACE-->
-            <figure class="bg-white/90 p-3 shadow-lg max-w-4/5 mx-auto">
-              <img
-                class="w-full aspect-[3/2] object-cover"
-                src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Library-Sites-canyon-shared/default/dw987cdcae/images/blog/E-Bike/blog-e-bike-durch-winter-image3.jpg?sw=1064&sfrm=jpg&q=80"
-                alt="The lights of your way!"
-              />
-              <figcaption>
-                <h3 class="text-xl font-semibold text-center">Bike Lights</h3>
-                <br />
-                <p>
-                  Own the night with ultra-bright, trail-rated bike lights.
-                  Whether you're dodging roots on a twilight singletrack or
-                  riding home from a late session, our lights are built to shine
-                  through dust, fog, and darkness. Mount, ride, and light the
-                  way.
-                </p>
-              </figcaption>
-            </figure>
-
-            <!-- CARD SPACE-->
-            <figure class="bg-white/90 p-3 shadow-lg max-w-4/5 mx-auto">
-              <img
-                class="w-full aspect-[3/2] object-cover"
-                src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Library-Sites-canyon-shared/default/dw987cdcae/images/blog/E-Bike/blog-e-bike-durch-winter-image3.jpg?sw=1064&sfrm=jpg&q=80"
-                alt="The lights of your way!"
-              />
-              <figcaption>
-                <h3 class="text-xl font-semibold text-center">
-                  Wheels - Make your path!
-                </h3>
-                <br />
-                <p>
-                  From sharp switchbacks to root-ridden descents, your wheels
-                  carry the weight—literally. Our MTB wheels are precision-built
-                  for durability, traction, and control, giving you the
-                  confidence to ride harder and longer, no matter the terrain.
-                </p>
-                <ul class="space-y-1 p-4">
-                  <li>
-                    Tubeless-ready rims for lower pressure and fewer flats
-                  </li>
-                  <li>Wide-profile rims for improved grip</li>
-                </ul>
-              </figcaption>
-            </figure>
-
-            <!-- CARD SPACE-->
-            <figure class="bg-white/90 p-3 shadow-lg max-w-4/5 mx-auto">
-              <img
-                class="w-full aspect-[3/2] object-cover"
-                img
-                src="https://preview.redd.it/blue-pedals-v0-bkfrzp2h7i0e1.jpg?width=640&crop=smart&auto=webp&s=3a186d4ec295b5aecbd374e6cd615e1ea105135d"
-                alt="Pedal to the medal"
-              />
-              <figcaption>
-                <h3 class="text-xl font-semibold text-center">Firm Pedals</h3>
-                <br />
-                <p>
-                  Your pedals are your connection to power. Whether you're
-                  grinding up rocky climbs or bombing technical descents, our
-                  mountain bike pedals deliver unmatched traction, control, and
-                  durability.
-                </p>
-              </figcaption>
-            </figure>
-
-            <!-- CARD SPACE-->
-            <figure class="bg-white/90 p-3 shadow-lg max-w-4/5 mx-auto">
-              <img
-                class="w-full aspect-[3/2] object-cover"
-                src="https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_1000%2Cq_80%2Cw_1920/rv3qpjfwri1ecfh3ajqf/Banner_HelmetSizeandFit.jpg"
-                alt="Helmets for everyone"
-              />
-              <figcaption>
-                <h3 class="text-xl font-semibold text-center">
-                  Protective Helmets
-                </h3>
-                <br />
-                <p>
-                  Push your limits without compromising safety. Our range of
-                  mountain bike helmets is engineered for rugged trails and
-                  high-speed descents.
-                </p>
-                <br />
-                <p>
-                  We offer a big selection of Helmets and more apparel. Want to
-                  be notified when they're up for sale? We invite you to our
-                  <a
-                    href="more.html#contactForm"
-                    class="text-[#1D1D43] underline hover:text-[#CE751D] transition"
-                    >Contact Form</a
-                  >
-                  section
-                </p>
-              </figcaption>
-            </figure>
-
-            <!-- CARD SPACE-->
-            <figure class="bg-white/90 p-3 shadow-lg max-w-4/5 mx-auto">
-              <img
-                class="w-full aspect-[3/2] object-cover"
-                img
-                src="https://www.dakine.com/cdn/shop/products/SYNCLINEGELGLOVE-DEEPBLUE-10003740-DEEPBLUE-LIFESTYLE02_grande.jpg?v=1677605155"
-                alt="Shoes for the hand"
-              />
-              <figcaption>
-                <h3 class="text-xl font-semibold text-center">
-                  Feel the Gloves
-                </h3>
-                <br />
-                <p>
-                  Don’t let rough terrain take a toll on your hands. Our MTB
-                  gloves are built to give you grip, comfort, and protection on
-                  every ride. Breathable, shock-absorbing, and designed for
-                  perfect bar feel, they’re your second skin on the trail.
-                </p>
-                <br />
-                <p>
-                  How to obtain them? Check in which category are they included
-                  in our
-                  <a
-                    href="more.html#prices"
-                    class="text-[#1D1D43] underline hover:text-[#CE751D] transition"
-                    >Services and Prices</a
-                  >
-                  section
-                </p>
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-      </section>
-
-      <section
-        id="prices"
-        class="relative bg-[url('https://images.pexels.com/photos/163407/cyclists-trail-bike-clouds-163407.jpeg')] bg-cover bg-center"
-      >
-        <!-- PRICES PRICES PRICES PRICES-->
-        <!-- DANIEL DANIEL DANIEL DANIEL -->
-
-        <!-- gradient div behind the whole secton-->
-        <div
-          class="absolute inset-0 bg-gradient-to-b from-[#3D3772]/70 to-[#CE751D]/90 z-0"
-        ></div>
-
-        <!-- divison of title and cards -->
-        <div class="relative z-10 py-9">
-          <!-- title box-->
-          <div class="max-w-4xl mx-auto text-center mb-10">
-            <h1 class="text-4xl text-white font-bold text-shadow-lg">
-              Service Pricing
-            </h1>
-          </div>
-
-          <div
-            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto"
-          >
-            <!-- CARD START -->
-            <div
-              class="bg-[#1d1d43]/30 text-gray-800 p-6 shadow-lg w-full min-w-[250px]"
-            >
-              <div
-                class="flex flex-col bg-[#1d1d43] p-2 shadow-lg max-w mx-auto"
-              >
-                <h2 class="text-2xl text-white font-semibold mb-2 text-center">
-                  Standard Service
-                </h2>
-                <br />
-                <h9
-                  class="text-4xl text-[#Ce751D] font-bold text-shadow-lg text-center"
-                  >350€</h9
-                >
-              </div>
-              <div class="bg-white p-3 shadow-lg max-w mx-auto">
-                <p class="font-semibold">
-                  Perfect for riders who want a solid baseline without extra
-                  fuss.
-                </p>
-                <ul class="space-y-1 p-4">
-                  <li>Includes quality frame, wheels, and drivetrain setup</li>
-                  <li>Basic helmet and flat pedals included</li>
-                  <li>
-                    Essential tech check: brakes, gears, and safety points
-                  </li>
-                  <li>Seat and handlebar fit adjustment for comfort</li>
-                  <li>Delivered fully assembled and trail-ready</li>
-                </ul>
-                <p class="font-semibold">
-                  Ideal for: Casual riders and first-time buyers who want
-                  dependable performance.
-                </p>
-              </div>
-            </div>
-
-            <!-- CARD START -->
-            <div
-              class="bg-[#1d1d43]/30 text-gray-800 p-6 shadow-lg w-full min-w-[250px]"
-            >
-              <div
-                class="flex flex-col bg-[#1d1d43] p-2 shadow-lg max-w mx-auto"
-              >
-                <h2 class="text-2xl text-white font-semibold mb-2 text-center">
-                  Premium Service
-                </h2>
-                <br />
-                <h9
-                  class="text-4xl text-[#Ce751D] font-bold text-shadow-lg text-center"
-                  >650€</h9
-                >
-              </div>
-              <div class="bg-white p-3 shadow-lg max-w mx-auto">
-                <p class="font-semibold">
-                  For those who demand more control and durability on rough
-                  terrain. Includes everything in Standard, plus:
-                </p>
-                <ul class="space-y-1 p-4">
-                  <li>
-                    Includes all Standard parts, plus performance pedals and
-                    grips
-                  </li>
-                  <li>
-                    Added gloves and moisture-wicking jersey for improved ride
-                    comfort
-                  </li>
-                  <li>
-                    Advanced tuning: brake bleed, wheel truing, and gear
-                    calibration
-                  </li>
-                  <li>Protective frame polish and rust-prevention service</li>
-                  <li>
-                    Complimentary bike light installation for added safety
-                  </li>
-                </ul>
-                <p class="font-semibold">
-                  Ideal for: Frequent riders looking to keep their bike
-                  trail-ready with enhanced performance and safety.
-                </p>
-              </div>
-            </div>
-
-            <!-- CARD START -->
-            <div
-              class="bg-[#1d1d43]/30 text-gray-800 p-6 shadow-lg w-full min-w-[250px]"
-            >
-              <div
-                class="flex flex-col bg-[#1d1d43] p-2 shadow-lg max-w mx-auto"
-              >
-                <h2 class="text-2xl text-white font-semibold mb-2 text-center">
-                  Deluxe Service
-                </h2>
-                <br />
-                <h9
-                  class="text-4xl text-[#Ce751D] font-bold text-shadow-lg text-center"
-                  >1150€</h9
-                >
-              </div>
-              <div class="bg-white p-3 shadow-lg max-w mx-auto">
-                <p class="font-semibold">
-                  Includes everything in Premium, plus:
-                </p>
-                <ul class="space-y-1 p-4">
-                  <li>
-                    Includes full bike build with upgraded drivetrain &
-                    suspension tuning
-                  </li>
-                  <li>
-                    Complete gear bundle: helmet, gloves, lights, pedals, and
-                    premium apparel
-                  </li>
-                  <li>
-                    Custom bike fitting session for maximum efficiency and
-                    control
-                  </li>
-                  <li>
-                    Replacement of worn components included (pads, cables,
-                    chain)
-                  </li>
-                  <li>Priority scheduling with express turnaround</li>
-                </ul>
-                <p class="font-semibold">
-                  Ideal for: Enthusiasts and competitive riders seeking peak
-                  performance and personalized setup.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="py-16 bg-gray-100">
-        <div class="max-w-4xl mx-auto px-4">
-          <h2 class="text-3xl font-bold text-center text-blue-800 mb-8">
-            Frequently Asked Questions (FAQ)
-          </h2>
-          <div class="space-y-6">
-            <!-- FAQ 1 -->
-            <div class="bg-white p-6 rounded-lg shadow">
-              <h3 class="text-xl font-semibold mb-2 text-gray-800">
-                1. What services do you offer?
-              </h3>
-              <p class="text-gray-600">
-                We offer a variety of bike services ranging from standard
-                maintenance to deluxe performance upgrades. See our pricing
-                section for full details.
-              </p>
-            </div>
-
-            <!-- FAQ 2 -->
-            <div class="bg-white p-6 rounded-lg shadow">
-              <h3 class="text-xl font-semibold mb-2 text-gray-800">
-                2. How do I book a service?
-              </h3>
-              <p class="text-gray-600">
-                You can book a service by contacting us directly through the
-                contact form or visiting our service center in person.
-              </p>
-            </div>
-
-            <!-- FAQ 3 -->
-            <div class="bg-white p-6 rounded-lg shadow">
-              <h3 class="text-xl font-semibold mb-2 text-gray-800">
-                3. Do you offer group discounts?
-              </h3>
-              <p class="text-gray-600">
-                Yes! We offer group and club discounts. Please reach out to our
-                team for custom quotes and scheduling.
-              </p>
-            </div>
-            <!-- FAQ 4 -->
-            <div class="bg-white p-6 rounded-lg shadow">
-              <h3 class="text-xl font-semibold mb-2 text-gray-800">
-                4. Can I get one for free?
-              </h3>
-              <p class="text-gray-600">
-                No Way! we are doing business, not charity :)
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <!-- WHY CHOOSE US -->
-        <!-- MARTHA -->
-      </section>
-
-      <section id="historymission" class="flex flex-col lg:flex-row w-full">
-        <!-- divided columns -->
-        <!-- HISTORY -->
-        <!-- DANIEL -->
-
-        <!-- image side -->
-        <div
-          class="w-full lg:w-1/2 h-64 lg:h-auto bg-[url('https://images.pexels.com/photos/19125415/pexels-photo-19125415/free-photo-of-bike.jpeg')] bg-cover bg-center"
-        ></div>
-
-        <!-- text Side -->
-        <div
-          class="w-full lg:w-1/2 bg-[#642F1F] flex flex-col justify-center items-center text-white p-6 text-center"
-        >
-          <h2 class="text-3xl font-bold mb-4">Nature’s Call – Our Story</h2>
-          <p class="mb-6 max-w-md text-justify">
-            Born where the asphalt ends and the wild begins, Nature’s Call was
-            founded by a small crew of riders, builders, and dreamers who
-            believed that bikes are more than machines—they’re a way to answer
-            the call of the wild. Tired of mass-produced frames and uninspired
-            gear, we set out to craft mountain bikes that not only perform under
-            pressure but connect you to the terrain with every ride.
-            <br /><br />
-            From backcountry climbs to alpine descents, our bikes are designed
-            to blur the line between rider and trail. Every component is tested
-            on real dirt, under real conditions, by riders who demand precision
-            and purpose in every detail. Because to us, nature isn’t just a
-            place to visit—it’s where we belong.
+<body>
+  <header>
+    <!-- CONNI-->
+    <nav
+      class="flex-row justify-between bg-[#101828]/95 text-[#ce8432] z-13 items-center pr-4 h-10 w-full fixed top-0 drop-shadow-xl/60 flex sm:font-bold md:h-[70px] md:pr-15 md:pl-5">
+      <a href="index.html">
+        <div class="flex text-[#ce8432] flex-row items-center justify-between">
+          <img src="./imagesConni/mountainbike_logo_transparent.png"
+            class="w-[50px] h-[50px] mt-2 sm:mt-3 md:h-[100px] md:w-[100px]" />
+          <p class="hidden md:inline text-[#ce8432] md:font-bold">
+            Northrace-Bikes
           </p>
         </div>
-      </section>
+      </a>
+      <ul class="flex flex-row justify-between gap-8">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="more.html#customparts">Shop</a></li>
+        <li><a href="more.html#historymission">About us</a></li>
+        <li>
+          <a href="more.html#contactForm">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!-- CONNI OVER-->
 
-      <!--CONNI - CONTACT FORM -->
-      <section
-        id="contactForm"
-        class="py-24 bg-[#f3f4f6] shadow-2xl shadow-slate-900"
-      >
-        <!-- bg-linear-to-b from-[#ce7f2c] to-[#110824] -->
+  <main>
+    <section id="customparts"
+      class="mt-[4rem] relative bg-[url('https://images.pexels.com/photos/775201/pexels-photo-775201.jpeg')] bg-cover bg-center bg-fixed min-h-screen">
+      <!-- CUSTOM PARTS CUSTOM PARTS CUSTOM PARTS CUSTOM PARTS-->
+      <!-- DANIEL DANIEL DANIEL DANIEL DANIEL-->
 
-        <div
-          class="px-8 py-10 mx-auto max-w-xl bg-[#1d1d43] rounded-lg shadow-lg"
-        >
-          <h2 class="text-white text-4xl font-bold text-shadow-lg text-center">
-            Contact us
+      <!-- gradient div behind the whole secton (inset-0) -->
+      <div class="absolute inset-0 bg-gradient-to-b from-[#1D1D43]/60 via-[#3D3772]/70 to-[#0E0A14]/90 z-0"></div>
+
+      <!-- divison of title and cards -->
+      <div class="relative z-10 py-9">
+        <!-- title division -->
+        <div class="max-w-4xl mx-auto text-center mb-10">
+          <h1 class="text-4xl text-white font-bold text-shadow-lg">
+            Our Custom Parts
+          </h1>
+          <h2 class="text-3xl text-white font-semibold mb-2">
+            just for you!
           </h2>
-          <form class="mt-12 space-y-6 bg-[#f3f4f6] p-7 rounded-lg shadow-lg">
-            <div>
-              <label class="text-slate-800 font-medium block mb-2"
-                >Your Name</label
-              >
-              <input
-                type="text"
-                placeholder="Name"
-                class="w-full rounded-md py-2.5 px-4 border border-gray-300 text-sm outline-blue-500 bg-white"
-              />
-            </div>
-            <div>
-              <label class="text-slate-800 font-medium block mb-2"
-                >Your Email</label
-              >
-              <input
-                type="email"
-                placeholder="Email"
-                class="w-full rounded-md py-2.5 px-4 border border-gray-300 text-sm outline-blue-500 bg-white"
-              />
-            </div>
-            <div>
-              <label class="text-slate-800 font-medium block mb-2"
-                >Subject</label
-              >
-              <input
-                type="text"
-                placeholder="Subject"
-                class="w-full rounded-md py-2.5 px-4 border border-gray-300 outline-blue-500 bg-white"
-              />
-            </div>
-            <div>
-              <label class="text-slate-800 font-medium block mb-2"
-                >Message</label
-              >
-              <textarea
-                placeholder="Message"
-                rows="6"
-                class="w-full rounded-md px-4 border border-gray-300 text-sm pt-2.5 outline-blue-500 bg-white"
-              ></textarea>
-            </div>
-            <button
-              type="button"
-              class="text-whiter bg-amber-600 hover:bg-slate-900 hover:text-white hover:font-bold rounded-md text-[15px] font-medium px-4 py-2 w-full mx-auto block cursor-pointer"
-            >
-              Send
-            </button>
-          </form>
         </div>
-        <!--CONNI OVER - CONTACT FORM  -->
-      </section>
 
-      <!-- MARTHA -->
-
-      <section class="bg-white py-20 text-[#0E0A14] ml-5 mr-5">
-        <div class="max-w-7xl mr-30 px-4 sm:px-6 lg:px-8">
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-7">
-            <!-- Cycles -->
-            <div>
-              <h3 class="text-lg font-semibold mb-4">Cycles</h3>
-              <ul class="space-y-2 text-sm">
-                <li>Mountainbikes</li>
-                <li>Tracking Bikes</li>
-                <li>Race Bikes</li>
-                <li>Canyon Bikes</li>
-              </ul>
-            </div>
-
-            <!-- Gear Up! -->
-            <div>
-              <h3 class="text-lg font-semibold mb-4">Gear Up!</h3>
-              <ul class="space-y-2 text-sm">
-                <li>Tires</li>
-                <li>Breaks</li>
-                <li>Clothes</li>
-                <li>Safety Gear</li>
-              </ul>
-            </div>
-
-            <!-- Subscribe! -->
-            <div>
-              <h3 class="text-lg font-semibold mb-4">Newsletter</h3>
-              <p class="text-sm mb-4">
-                Subscribe and enjoy special offers, new arrival early bird
-                discount and so much more!
+        <!-- box for cards and create grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-1 gap-y-4 max-w-8xl mx-auto">
+          <!-- CARD SPACE-->
+          <figure class="bg-white/90 p-3 shadow-lg max-w-4/5 mx-auto">
+            <img class="w-full aspect-[3/2] object-cover"
+              src="https://images.pexels.com/photos/8755529/pexels-photo-8755529.jpeg"
+              alt="The frame is the soul of your bike" />
+            <figcaption>
+              <h3 class="text-xl font-semibold text-center">
+                Mountain Bike Frames
+              </h3>
+              <br />
+              <p>
+                Everything starts with the frame. Whether you're crushing
+                climbs or flying down descents, your frame dictates how your
+                bike handles the trail. Ours are engineered for strength,
+                agility, and control—with geometry tuned for aggressive riding
+                and materials that take a beating without compromise.
               </p>
-              <form
-                class="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-2"
-              >
-                <input
-                  type="email"
-                  placeholder="Enter your email address here :)"
-                  class="w-full sm:w-auto px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#CE751D]"
-                />
-                <button
-                  type="submit"
-                  class="px-4 py-2 bg-[#CE751D] text-white rounded-md hover:bg-opacity-90 transition"
-                >
-                  Subscribe!
-                </button>
-              </form>
+              <ul class="space-y-1 p-4">
+                <li>Lightweight aluminum, carbon, or steel options</li>
+                <li>Trail, enduro, and downhill geometries</li>
+              </ul>
+            </figcaption>
+          </figure>
+
+          <!-- CARD SPACE-->
+          <figure class="bg-white/90 p-3 shadow-lg max-w-4/5 mx-auto">
+            <img class="w-full aspect-[3/2] object-cover"
+              src="https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Library-Sites-canyon-shared/default/dw987cdcae/images/blog/E-Bike/blog-e-bike-durch-winter-image3.jpg?sw=1064&sfrm=jpg&q=80"
+              alt="The lights of your way!" />
+            <figcaption>
+              <h3 class="text-xl font-semibold text-center">Bike Lights</h3>
+              <br />
+              <p>
+                Own the night with ultra-bright, trail-rated bike lights.
+                Whether you're dodging roots on a twilight singletrack or
+                riding home from a late session, our lights are built to shine
+                through dust, fog, and darkness. Mount, ride, and light the
+                way.
+              </p><br />
+              <p>
+                Interested in knowing when new lights will be out? Write us in the
+                <a href="more.html#contactForm" class="text-[#1D1D43] underline hover:text-[#CE751D] transition">Contact
+                  Form</a>
+                section and we'll send you the latest products. No need to register!
+              </p>
+            </figcaption>
+          </figure>
+
+          <!-- CARD SPACE-->
+          <figure class="bg-white/90 p-3 shadow-lg max-w-4/5 mx-auto">
+            <img class="w-full aspect-[3/2] object-cover"
+              src="https://images.pexels.com/photos/29379127/pexels-photo-29379127/free-photo-of-close-up-of-bicycle-wheel-by-scenic-river.jpeg"
+              alt="Your wheels are the souls of the bike" />
+            <figcaption>
+              <h3 class="text-xl font-semibold text-center">
+                Wheels - Make your path!
+              </h3>
+              <br />
+              <p>
+                From sharp switchbacks to root-ridden descents, your wheels
+                carry the weight—literally. Our MTB wheels are precision-built
+                for durability, traction, and control, giving you the
+                confidence to ride harder and longer, no matter the terrain.
+              </p>
+              <ul class="space-y-1 p-4">
+                <li>
+                  Tubeless-ready rims for lower pressure and fewer flats
+                </li>
+                <li>Wide-profile rims for improved grip</li>
+              </ul>
+            </figcaption>
+          </figure>
+
+          <!-- CARD SPACE-->
+          <figure class="bg-white/90 p-3 shadow-lg max-w-4/5 mx-auto">
+            <img class="w-full aspect-[3/2] object-cover" img
+              src="https://preview.redd.it/blue-pedals-v0-bkfrzp2h7i0e1.jpg?width=640&crop=smart&auto=webp&s=3a186d4ec295b5aecbd374e6cd615e1ea105135d"
+              alt="Pedal to the medal" />
+            <figcaption>
+              <h3 class="text-xl font-semibold text-center">Firm Pedals</h3>
+              <br />
+              <p>
+                Your pedals are your connection to power. Whether you're
+                grinding up rocky climbs or bombing technical descents, our
+                mountain bike pedals deliver unmatched traction, control, and
+                durability.
+              </p> <br />
+              <p>
+                Check the
+                <a href="index.html#latest-news" class="text-[#1D1D43] underline hover:text-[#CE751D] transition">Latest
+                  news
+                  Form</a>
+                section. There could be a 40% discount!
+              </p>
+            </figcaption>
+          </figure>
+
+          <!-- CARD SPACE-->
+          <figure class="bg-white/90 p-3 shadow-lg max-w-4/5 mx-auto">
+            <img class="w-full aspect-[3/2] object-cover"
+              src="https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_1000%2Cq_80%2Cw_1920/rv3qpjfwri1ecfh3ajqf/Banner_HelmetSizeandFit.jpg"
+              alt="Helmets for everyone" />
+            <figcaption>
+              <h3 class="text-xl font-semibold text-center">
+                Protective Helmets
+              </h3>
+              <br />
+              <p>
+                Push your limits without compromising safety. Our range of
+                mountain bike helmets is engineered for rugged trails and
+                high-speed descents.
+              </p>
+              <br />
+              <p>
+                We offer a big selection of Helmets and more apparel. Want to
+                be notified when they're up for sale? We invite you to our
+                <a href="more.html#contactForm" class="text-[#1D1D43] underline hover:text-[#CE751D] transition">Contact
+                  Form</a>
+                section
+              </p>
+            </figcaption>
+          </figure>
+
+          <!-- CARD SPACE-->
+          <figure class="bg-white/90 p-3 shadow-lg max-w-4/5 mx-auto">
+            <img class="w-full aspect-[3/2] object-cover" img
+              src="https://www.dakine.com/cdn/shop/products/SYNCLINEGELGLOVE-DEEPBLUE-10003740-DEEPBLUE-LIFESTYLE02_grande.jpg?v=1677605155"
+              alt="Shoes for the hand" />
+            <figcaption>
+              <h3 class="text-xl font-semibold text-center">
+                Feel the Gloves
+              </h3>
+              <br />
+              <p>
+                Don’t let rough terrain take a toll on your hands. Our MTB
+                gloves are built to give you grip, comfort, and protection on
+                every ride. Breathable, shock-absorbing, and designed for
+                perfect bar feel, they’re your second skin on the trail.
+              </p>
+              <br />
+              <p>
+                How to obtain them? Check in which category are they included
+                in our
+                <a href="more.html#prices" class="text-[#1D1D43] underline hover:text-[#CE751D] transition">Services and
+                  Prices</a>
+                section
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="prices"
+      class="relative bg-[url('https://images.pexels.com/photos/163407/cyclists-trail-bike-clouds-163407.jpeg')] bg-cover bg-center">
+      <!-- PRICES PRICES PRICES PRICES-->
+      <!-- DANIEL DANIEL DANIEL DANIEL -->
+
+      <!-- gradient div behind the whole secton-->
+      <div class="absolute inset-0 bg-gradient-to-b from-[#3D3772]/70 to-[#CE751D]/90 z-0"></div>
+
+      <!-- divison of title and cards -->
+      <div class="relative z-10 py-9">
+        <!-- title box-->
+        <div class="max-w-4xl mx-auto text-center mb-10">
+          <h1 class="text-4xl text-white font-bold text-shadow-lg">
+            Service Pricing
+          </h1>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
+          <!-- CARD START -->
+          <div class="bg-[#1d1d43]/30 text-gray-800 p-6 shadow-lg w-full min-w-[250px]">
+            <div class="flex flex-col bg-[#1d1d43] p-2 shadow-lg max-w mx-auto">
+              <h2 class="text-2xl text-white font-semibold mb-2 text-center">
+                Standard Service
+              </h2>
+              <br />
+              <h9 class="text-4xl text-[#Ce751D] font-bold text-shadow-lg text-center">350€</h9>
+            </div>
+            <div class="bg-white p-3 shadow-lg max-w mx-auto">
+              <p class="font-semibold">
+                Perfect for riders who want a solid baseline without extra
+                fuss.
+              </p>
+              <ul class="space-y-1 p-4">
+                <li>Includes quality frame, wheels, and drivetrain setup</li>
+                <li>Basic helmet and flat pedals included</li>
+                <li>
+                  Essential tech check: brakes, gears, and safety points
+                </li>
+                <li>Seat and handlebar fit adjustment for comfort</li>
+                <li>Delivered fully assembled and trail-ready</li>
+              </ul>
+              <p class="font-semibold">
+                Ideal for: Casual riders and first-time buyers who want
+                dependable performance.
+              </p>
             </div>
           </div>
-        </div>
-      </section>
 
-      <section
-        id="suscribe"
-        class="relative bg-[url('https://images.pexels.com/photos/733740/pexels-photo-733740.jpeg')] bg-cover bg-center"
-      >
-        <!-- SUSCRIBE -->
-        <!-- DANIEL -->
-
-        <!-- gradient div behind the whole secton-->
-        <div
-          class="absolute inset-0 bg-gradient-to-b from-[#642F1F]/60 to-[#0E0A14]/90 z-0"
-        ></div>
-
-        <!-- divison of title and cards -->
-        <div class="relative z-10 py-16 px-4 max-w-4xl mx-auto text-center">
-          <!-- title box-->
-          <div class="max-w-4xl mx-auto text-center mb-10">
-            <h1 class="text-4xl text-white font-bold text-shadow-lg">
-              Stay in touch!
-            </h1>
-          </div>
-
-          <!-- content: text, form and button area -->
-          <div
-            class="flex flex-col md:flex-row items-center justify-center gap-6"
-          >
-            <!-- small text left -->
-            <p class="text-white text-lg font-light md:mr-4">
-              Join our newsletter
-            </p>
-
-            <!-- suscribe section box-->
-            <div>
-              <!-- Input and button wrapper -->
-              <form class="flex flex-col sm:flex-row items-center gap-2">
-                <input
-                  type="email"
-                  placeholder="Enter your email"
-                  class="px-4 py-2 rounded bg-white/90 text-gray-800 focus:outline-none focus:ring-2 focus:ring-amber-500"
-                />
-                <button
-                  type="submit"
-                  class="bg-slate-900 text-amber-500 hover:bg-amber-600 hover:text-white font-semibold px-6 py-2 rounded transition"
-                >
-                  Suscribe
-                </button>
-              </form>
+          <!-- CARD START -->
+          <div class="bg-[#1d1d43]/30 text-gray-800 p-6 shadow-lg w-full min-w-[250px]">
+            <div class="flex flex-col bg-[#1d1d43] p-2 shadow-lg max-w mx-auto">
+              <h2 class="text-2xl text-white font-semibold mb-2 text-center">
+                Premium Service
+              </h2>
+              <br />
+              <h9 class="text-4xl text-[#Ce751D] font-bold text-shadow-lg text-center">650€</h9>
+            </div>
+            <div class="bg-white p-3 shadow-lg max-w mx-auto">
+              <p class="font-semibold">
+                For those who demand more control and durability on rough
+                terrain. Includes everything in Standard, plus:
+              </p>
+              <ul class="space-y-1 p-4">
+                <li>
+                  Includes all Standard parts, plus performance pedals and
+                  grips
+                </li>
+                <li>
+                  Added gloves and moisture-wicking jersey for improved ride
+                  comfort
+                </li>
+                <li>
+                  Advanced tuning: brake bleed, wheel truing, and gear
+                  calibration
+                </li>
+                <li>Protective frame polish and rust-prevention service</li>
+                <li>
+                  Complimentary bike light installation for added safety
+                </li>
+              </ul>
+              <p class="font-semibold">
+                Ideal for: Frequent riders looking to keep their bike
+                trail-ready with enhanced performance and safety.
+              </p>
             </div>
           </div>
-        </div>
-      </section>
-    </main>
 
-    <!--MARTHA-->
-    <footer class="bg-gray-900 text-white py-16">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div
-          class="flex flex-col md:flex-row items-center justify-between space-y-9 space-x-5 md:space-y-0 ml-5 mr-5"
-        >
-          <div class="text-lg font-semibold">Nature's Call Company</div>
-
-          <div
-            class="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-6"
-          >
-            <a href="#" class="text-gray-400 hover:text-white text-sm"
-              >Privacy Policy</a
-            >
-            <a href="#" class="text-gray-400 hover:text-white text-sm"
-              >Terms of Service</a
-            >
-            <a href="#" class="text-gray-400 hover:text-white text-sm">
-              <p>Contact</p>
-            </a>
-          </div>
-          <br />
-
-          <div class="flex space-x-4">
-            <!-- Instagram -->
-            <a href="#" class="text-gray-400 hover:text-pink-500">
-              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                <path
-                  d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm5.25-2a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
-                />
-              </svg>
-            </a>
-
-            <!-- TikTok -->
-            <a href="#" class="text-gray-400 hover:text-blue-500">
-              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                <path
-                  d="M9.636 2H14a5.988 5.988 0 0 0 5.5 5.962V11a8 8 0 1 1-9.864-7.874V8a3 3 0 1 0 0 6v2a5 5 0 1 1 0-10V2z"
-                />
-              </svg>
-            </a>
-
-            <!-- Snapchat -->
-            <a href="#" class="text-gray-400 hover:text-yellow-400">
-              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                <path
-                  d="M12 2C6.478 2 2 6.478 2 12c0 5.003 3.678 9.127 8.498 9.878a.748.748 0 0 0 .502-.13c.283-.206.534-.395.747-.562.574.22 1.282.435 2.253.435.971 0 1.679-.215 2.253-.435.213.167.464.356.747.562a.748.748 0 0 0 .502.13C18.322 21.127 22 17.003 22 12c0-5.522-4.478-10-10-10z"
-                />
-              </svg>
-            </a>
-          </div>
-          <br />
-
-          <div class="text-sm text-gray-400 text-center md:text-right">
-            &copy; 2025 Nature's Call Company. All rights reserved.
+          <!-- CARD START -->
+          <div class="bg-[#1d1d43]/30 text-gray-800 p-6 shadow-lg w-full min-w-[250px]">
+            <div class="flex flex-col bg-[#1d1d43] p-2 shadow-lg max-w mx-auto">
+              <h2 class="text-2xl text-white font-semibold mb-2 text-center">
+                Deluxe Service
+              </h2>
+              <br />
+              <h9 class="text-4xl text-[#Ce751D] font-bold text-shadow-lg text-center">1150€</h9>
+            </div>
+            <div class="bg-white p-3 shadow-lg max-w mx-auto">
+              <p class="font-semibold">
+                Includes everything in Premium, plus:
+              </p>
+              <ul class="space-y-1 p-4">
+                <li>
+                  Includes full bike build with upgraded drivetrain &
+                  suspension tuning
+                </li>
+                <li>
+                  Complete gear bundle: helmet, gloves, lights, pedals, and
+                  premium apparel
+                </li>
+                <li>
+                  Custom bike fitting session for maximum efficiency and
+                  control
+                </li>
+                <li>
+                  Replacement of worn components included (pads, cables,
+                  chain)
+                </li>
+                <li>Priority scheduling with express turnaround</li>
+              </ul>
+              <p class="font-semibold">
+                Ideal for: Enthusiasts and competitive riders seeking peak
+                performance and personalized setup.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </footer>
-  </body>
+    </section>
+
+    <section class="py-16 bg-gray-100">
+      <div class="max-w-4xl mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center text-blue-800 mb-8">
+          Frequently Asked Questions (FAQ)
+        </h2>
+        <div class="space-y-6">
+          <!-- FAQ 1 -->
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold mb-2 text-gray-800">
+              1. What services do you offer?
+            </h3>
+            <p class="text-gray-600">
+              We offer a variety of bike services ranging from standard
+              maintenance to deluxe performance upgrades. See our pricing
+              section for full details.
+            </p>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold mb-2 text-gray-800">
+              2. How do I book a service?
+            </h3>
+            <p class="text-gray-600">
+              You can book a service by contacting us directly through the
+              contact form or visiting our service center in person.
+            </p>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold mb-2 text-gray-800">
+              3. Do you offer group discounts?
+            </h3>
+            <p class="text-gray-600">
+              Yes! We offer group and club discounts. Please reach out to our
+              team for custom quotes and scheduling.
+            </p>
+          </div>
+          <!-- FAQ 4 -->
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold mb-2 text-gray-800">
+              4. Can I get one for free?
+            </h3>
+            <p class="text-gray-600">
+              No Way! we are doing business, not charity :)
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <!-- WHY CHOOSE US -->
+      <!-- MARTHA -->
+    </section>
+
+    <section id="historymission" class="flex flex-col lg:flex-row w-full">
+      <!-- divided columns -->
+      <!-- HISTORY -->
+      <!-- DANIEL -->
+
+      <!-- image side -->
+      <div
+        class="w-full lg:w-1/2 h-64 lg:h-auto bg-[url('https://images.pexels.com/photos/19125415/pexels-photo-19125415/free-photo-of-bike.jpeg')] bg-cover bg-center">
+      </div>
+
+      <!-- text Side -->
+      <div class="w-full lg:w-1/2 bg-[#642F1F] flex flex-col justify-center items-center text-white p-6 text-center">
+        <h2 class="text-3xl font-bold mb-4">Northrace Bikes – Our Story</h2>
+        <p class="mb-6 max-w-md text-justify">
+          Born where the asphalt ends and the wild begins, Nature’s Call was
+          founded by a small crew of riders, builders, and dreamers who
+          believed that bikes are more than machines—they’re a way to answer
+          the call of the wild. Tired of mass-produced frames and uninspired
+          gear, we set out to craft mountain bikes that not only perform under
+          pressure but connect you to the terrain with every ride.
+          <br /><br />
+          From backcountry climbs to alpine descents, our bikes are designed
+          to blur the line between rider and trail. Every component is tested
+          on real dirt, under real conditions, by riders who demand precision
+          and purpose in every detail. Because to us, nature isn’t just a
+          place to visit—it’s where we belong.
+        </p>
+      </div>
+    </section>
+
+    <!--CONNI - CONTACT FORM -->
+    <section id="contactForm" class="py-24 bg-[#f3f4f6] shadow-2xl shadow-slate-900">
+      <!-- bg-linear-to-b from-[#ce7f2c] to-[#110824] -->
+
+      <div class="px-8 py-10 mx-auto max-w-xl bg-[#1d1d43] rounded-lg shadow-lg">
+        <h2 class="text-white text-4xl font-bold text-shadow-lg text-center">
+          Contact us
+        </h2>
+        <form class="mt-12 space-y-6 bg-[#f3f4f6] p-7 rounded-lg shadow-lg">
+          <div>
+            <label class="text-slate-800 font-medium block mb-2">Your Name</label>
+            <input type="text" placeholder="Name"
+              class="w-full rounded-md py-2.5 px-4 border border-gray-300 text-sm outline-blue-500 bg-white" />
+          </div>
+          <div>
+            <label class="text-slate-800 font-medium block mb-2">Your Email</label>
+            <input type="email" placeholder="Email"
+              class="w-full rounded-md py-2.5 px-4 border border-gray-300 text-sm outline-blue-500 bg-white" />
+          </div>
+          <div>
+            <label class="text-slate-800 font-medium block mb-2">Subject</label>
+            <input type="text" placeholder="Subject"
+              class="w-full rounded-md py-2.5 px-4 border border-gray-300 outline-blue-500 bg-white" />
+          </div>
+          <div>
+            <label class="text-slate-800 font-medium block mb-2">Message</label>
+            <textarea placeholder="Message" rows="6"
+              class="w-full rounded-md px-4 border border-gray-300 text-sm pt-2.5 outline-blue-500 bg-white"></textarea>
+          </div>
+          <button type="button"
+            class="text-whiter bg-amber-600 hover:bg-slate-900 hover:text-white hover:font-bold rounded-md text-[15px] font-medium px-4 py-2 w-full mx-auto block cursor-pointer">
+            Send
+          </button>
+        </form>
+      </div>
+      <!--CONNI OVER - CONTACT FORM  -->
+    </section>
+
+    <!-- MARTHA -->
+
+    <section class="bg-white py-20 text-[#0E0A14] ml-5 mr-5">
+      <div class="max-w-7xl mr-30 px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-7">
+          <!-- Cycles -->
+          <div>
+            <h3 class="text-lg font-semibold mb-4">Cycles</h3>
+            <ul class="space-y-2 text-sm">
+              <li>Mountainbikes</li>
+              <li>Tracking Bikes</li>
+              <li>Race Bikes</li>
+              <li>Canyon Bikes</li>
+            </ul>
+          </div>
+
+          <!-- Gear Up! -->
+          <div>
+            <h3 class="text-lg font-semibold mb-4">Gear Up!</h3>
+            <ul class="space-y-2 text-sm">
+              <li>Tires</li>
+              <li>Breaks</li>
+              <li>Clothes</li>
+              <li>Safety Gear</li>
+            </ul>
+          </div>
+
+          <!-- Subscribe! -->
+          <div>
+            <h3 class="text-lg font-semibold mb-4">Newsletter</h3>
+            <p class="text-sm mb-4">
+              Subscribe and enjoy special offers, new arrival early bird
+              discount and so much more!
+            </p>
+            <form class="flex flex-col sm:flex-row items-start sm:items-center space-y-4 sm:space-y-0 sm:space-x-2">
+              <input type="email" placeholder="Enter your email address here :)"
+                class="w-full sm:w-auto px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#CE751D]" />
+              <button type="submit" class="px-4 py-2 bg-[#CE751D] text-white rounded-md hover:bg-opacity-90 transition">
+                Subscribe!
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="suscribe"
+      class="relative bg-[url('https://images.pexels.com/photos/733740/pexels-photo-733740.jpeg')] bg-cover bg-center">
+      <!-- SUSCRIBE -->
+      <!-- DANIEL -->
+
+      <!-- gradient div behind the whole secton-->
+      <div class="absolute inset-0 bg-gradient-to-b from-[#642F1F]/60 to-[#0E0A14]/90 z-0"></div>
+
+      <!-- divison of title and cards -->
+      <div class="relative z-10 py-16 px-4 max-w-4xl mx-auto text-center">
+        <!-- title box-->
+        <div class="max-w-4xl mx-auto text-center mb-10">
+          <h1 class="text-4xl text-white font-bold text-shadow-lg">
+            Stay in touch!
+          </h1>
+        </div>
+
+        <!-- content: text, form and button area -->
+        <div class="flex flex-col md:flex-row items-center justify-center gap-6">
+          <!-- small text left -->
+          <p class="text-white text-lg font-light md:mr-4">
+            Join our newsletter
+          </p>
+
+          <!-- suscribe section box-->
+          <div>
+            <!-- Input and button wrapper -->
+            <form class="flex flex-col sm:flex-row items-center gap-2">
+              <input type="email" placeholder="Enter your email"
+                class="px-4 py-2 rounded bg-white/90 text-gray-800 focus:outline-none focus:ring-2 focus:ring-amber-500" />
+              <button type="submit"
+                class="bg-slate-900 text-amber-500 hover:bg-amber-600 hover:text-white font-semibold px-6 py-2 rounded transition">
+                Suscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--MARTHA-->
+  <footer class="bg-gray-900 text-white py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-center justify-between space-y-9 space-x-5 md:space-y-0 ml-5 mr-5">
+        <div class="text-lg font-semibold">Nature's Call Company</div>
+
+        <div class="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-6">
+          <a href="#" class="text-gray-400 hover:text-white text-sm">Privacy Policy</a>
+          <a href="#" class="text-gray-400 hover:text-white text-sm">Terms of Service</a>
+          <a href="#" class="text-gray-400 hover:text-white text-sm">
+            <p>Contact</p>
+          </a>
+        </div>
+        <br />
+
+        <div class="flex space-x-4">
+          <!-- Instagram -->
+          <a href="#" class="text-gray-400 hover:text-pink-500">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm5.25-2a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+            </svg>
+          </a>
+
+          <!-- TikTok -->
+          <a href="#" class="text-gray-400 hover:text-blue-500">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M9.636 2H14a5.988 5.988 0 0 0 5.5 5.962V11a8 8 0 1 1-9.864-7.874V8a3 3 0 1 0 0 6v2a5 5 0 1 1 0-10V2z" />
+            </svg>
+          </a>
+
+          <!-- Snapchat -->
+          <a href="#" class="text-gray-400 hover:text-yellow-400">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M12 2C6.478 2 2 6.478 2 12c0 5.003 3.678 9.127 8.498 9.878a.748.748 0 0 0 .502-.13c.283-.206.534-.395.747-.562.574.22 1.282.435 2.253.435.971 0 1.679-.215 2.253-.435.213.167.464.356.747.562a.748.748 0 0 0 .502.13C18.322 21.127 22 17.003 22 12c0-5.522-4.478-10-10-10z" />
+            </svg>
+          </a>
+        </div>
+        <br />
+
+        <div class="text-sm text-gray-400 text-center md:text-right">
+          &copy; 2025 Nature's Call Company. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
